@@ -13,7 +13,7 @@
 	</stylesheets>
 	<children>
 		<Label text="TypeFX" styleClass="title" />
-		<TextFlow styleClass="text-center" styleClass="wpm">
+		<TextFlow styleClass="text-center, wpm">
 			<children>
 				<Text text="Last WPM: " />
 				<Text fx:id="wpm" text="0" />
