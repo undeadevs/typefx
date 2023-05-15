@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.undeadevs.MainController">
+	<stylesheets>
+		<URL value="@index.css" />
+	</stylesheets>
+	<children>
+		<Label text="TypeFX" styleClass="title" />
+		<TextFlow styleClass="text-center" styleClass="wpm">
+			<children>
+				<Text text="Last WPM: " />
+				<Text fx:id="wpm" text="0" />
+			</children>
+		</TextFlow>
+		<TextFlow fx:id="textContainer" styleClass="text-container">
+			<children>
+				<Text fx:id="textTrue" text="‌" styleClass="text-t" />
+				<Text fx:id="textFalse" text="‌" styleClass="text-f" />
+				<Text fx:id="textCase" text="" styleClass="text-case" />
+			</children>
+		</TextFlow>
+	</children>
+	<padding>
+		<Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+	</padding>
+</VBox>

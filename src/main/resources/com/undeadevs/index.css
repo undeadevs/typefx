@@ -1,0 +1,29 @@
+.title{
+    -fx-font-weight: 700;
+    -fx-font-size: 24pt;
+}
+
+.wpm{
+    -fx-font-size: 16pt;
+}
+
+.text-center{
+    -fx-text-alignment: "center";
+}
+
+.text-container{
+    -fx-font-family: monospace; 
+    -fx-font-size: 12pt;
+}
+
+.text-case{
+    -fx-fill: "black";
+}
+
+.text-t{
+    -fx-fill: "limegreen";
+}
+
+.text-f{
+    -fx-fill: "red";
+}
